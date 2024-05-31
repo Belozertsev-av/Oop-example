@@ -27,8 +27,14 @@ namespace WpfApp1
             AppFrame.appFrame.Navigate(new CarPage());
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void deleteButton_Click(object sender, RoutedEventArgs e)
         {
+
+        }
+
+        private void addButton_Click(object sender, RoutedEventArgs e)
+        {
+            AppFrame.appFrame.Navigate(new AddProduct());
 
         }
     }
